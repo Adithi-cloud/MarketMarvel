@@ -1,0 +1,74 @@
+.video {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.buttonstyle {
+    background-color: #0a58ca;
+    color: #fff;
+    padding: 10px;
+    height: 3rem;
+    width: 10rem;
+    font-size: 18px;
+    border-radius: 9px;
+}
+.heading {
+    color: #0a58ca;
+    position: absolute;
+    left: 40px;
+    top: 15px;
+    font-size: 30px;
+    font-weight: 1000;
+}
+.intro {
+    color: #000;
+    font-size: 45px;
+    top: 64px;
+    font-family: math;
+    position: relative;
+    padding: 50px;
+    max-width: 32rem;
+    box-decoration-break: clone;
+    text-align: center;
+    font-weight: bold;
+}
+.component {
+    display: flex;
+    flex-direction: column;
+  overflow-x: hidden;
+    background-image: url('../public/test.gif');
+    position: relative;
+    padding: 15px;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+}
+.images {
+    height: fit-content;
+}
+.anchortag {
+    text-decoration: none;
+    color: white;
+}
+.popup {
+    height: 70%;
+    width: 64%;
+    position: fixed;
+    top: 60px;
+    left: 220px;
+    background-color: #a1bff7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    border-radius: 0.5em;
+}
+.btncolor {
+    background-color: #0a58ca;
+}
